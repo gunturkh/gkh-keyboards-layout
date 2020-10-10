@@ -36,7 +36,8 @@ extern const unsigned char font[] PROGMEM;
 // 'last_flush' is declared as uint16_t,
 // so this must be less than 65535
 #ifndef ScreenOffInterval
-#define ScreenOffInterval 60000 /* milliseconds */
+//#define ScreenOffInterval 60000 /* milliseconds */
+#define ScreenOffInterval 1000 /* milliseconds */
 #endif
 
 #if DEBUG_TO_SCREEN
@@ -346,7 +347,7 @@ void iota_gfx_task(void) {
   }
 
   if (ScreenOffInterval !=0 && timer_elapsed(last_flush) > ScreenOffInterval) {
-    iota_gfx_off();
+    //iota_gfx_off();
   }
 }
 

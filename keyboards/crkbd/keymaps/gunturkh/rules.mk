@@ -1,5 +1,10 @@
-RGBLIGHT_ENABLE = yes
-
+RGBLIGHT_ENABLE = no
+KEY_LOCK_ENABLE = yes
+#AUTO_SHIFT_ENABLE = yes
+#RGB_MATRIX_ENABLE = WS2812
+OLED_DRIVER_ENABLE = yes   # Enables the use of OLED displays
+WPM_ENABLE = yes
+EXTRAFLAGS += -flto
 # If you want to change the display of OLED, you need to change here
 SRC +=  ./lib/glcdfont.c \
         ./lib/rgb_state_reader.c \
