@@ -18,11 +18,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // LAYER 1
 	KEYMAP(
   //,--------------------------------------------------------------------------------------------------------------------------------.
-	   KC_TILD,  KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,  KC_CIRC,        KC_AMPR,       KC_ASTR, KC_LPRN, KC_RPRN,   KC_TRNS, 
+	   KC_TILD,  KC_EXLM,   KC_AT, KC_HASH, KC_MINS, KC_UNDS,  KC_TRNS,        KC_LPRN,       KC_RPRN, KC_TRNS, KC_TRNS,   KC_TRNS, 
   //,-------------+---------+--------+--------+--------+--------+---------+---------------+--------------+--------+--------+---------|
-	    KC_DEL,    KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,    KC_F6,        KC_UNDS,       KC_PLUS, KC_LCBR, KC_RCBR,   KC_PIPE, 
+	    KC_GRV,   KC_DLR, KC_PERC, KC_CIRC,  KC_EQL, KC_PLUS,  KC_TRNS,        KC_LCBR,       KC_RCBR, KC_PIPE, KC_BSLS,   KC_TRNS, 
   //,-------------+---------+--------+--------+--------+--------+---------+---------------+--------------+--------+--------+---------|
-	   KC_TRNS,    KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,   KC_F12,  LSFT(KC_NUHS), LSFT(KC_NUBS), KC_LBRC, KC_RBRC,   KC_ENT, 
+	   KC_TRNS,  KC_AMPR, KC_ASTR, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,        KC_LBRC,       KC_RBRC, KC_TRNS, KC_TRNS,   KC_ENT, 
   //,-------------+---------+--------+--------+--------+--------+---------+---------------+--------------+--------+--------+---------|
 	   KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,     KC_TRNS,              KC_TRNS,       KC_MNXT, KC_VOLD, KC_VOLU,   KC_MPLY
   //,-------------+---------+--------+--------+--------+------------------+---------------+--------------+--------+--------+---------|
