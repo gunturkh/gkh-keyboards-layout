@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-------------+---------+--------+--------+--------+--------+---------+---------------+--------------+--------+--------+---------|
 	    KC_GRV,   KC_DLR, KC_PERC, KC_CIRC,  KC_EQL, KC_PLUS,  KC_TRNS,        KC_LCBR,       KC_RCBR, KC_PIPE, KC_BSLS,   KC_TRNS, 
   //,-------------+---------+--------+--------+--------+--------+---------+---------------+--------------+--------+--------+---------|
-	   KC_TRNS,  KC_AMPR, KC_ASTR, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,        KC_LBRC,       KC_RBRC, KC_TRNS, KC_TRNS,   KC_ENT, 
+	   KC_CAPS,  KC_AMPR, KC_ASTR, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,        KC_LBRC,       KC_RBRC, KC_TRNS, KC_TRNS,   KC_ENT, 
   //,-------------+---------+--------+--------+--------+--------+---------+---------------+--------------+--------+--------+---------|
 	   KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,     KC_SPC,                 MO(5),       KC_MNXT, KC_VOLD, KC_VOLU,   KC_MPLY
   //,-------------+---------+--------+--------+--------+------------------+---------------+--------------+--------+--------+---------|
