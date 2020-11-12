@@ -49,7 +49,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 //#define TAPPING_FORCE_HOLD
 //#define TAPPING_TERM 100
-#ifdef RGB_MATRIX_ENABLE
+/* #ifdef RGB_MATRIX_ENABLE */
 /* #   define RGB_MATRIX_KEYPRESSES // reacts to keypresses */
 // #   define RGB_MATRIX_KEYRELEASES // reacts to keyreleases (instead of keypresses)
 // #   define RGB_DISABLE_AFTER_TIMEOUT 0 // number of ticks to wait until disabling effects
@@ -93,13 +93,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #   define DISABLE_RGB_MATRIX_MULTISPLASH
 // #   define DISABLE_RGB_MATRIX_SOLID_SPLASH
 // #   define DISABLE_RGB_MATRIX_SOLID_MULTISPLASH
-#endif
-/* #ifdef RGBLIGHT_ENABLE */
-/*     #undef RGBLED_NUM */
-/*     #define RGBLIGHT_ANIMATIONS */
-/*     #define RGBLED_NUM 27 */
-/*     #define RGBLIGHT_LIMIT_VAL 120 */
-/*     #define RGBLIGHT_HUE_STEP 10 */
-/*     #define RGBLIGHT_SAT_STEP 17 */
-/*     #define RGBLIGHT_VAL_STEP 17 */
 /* #endif */
+#ifdef RGBLIGHT_ENABLE
+    #undef RGBLED_NUM
+    #define RGBLIGHT_ANIMATIONS
+    #define RGBLED_NUM 27
+    #define RGBLIGHT_LIMIT_VAL 50
+    #define RGBLIGHT_HUE_STEP 10
+    #define RGBLIGHT_SAT_STEP 17
+    #define RGBLIGHT_VAL_STEP 17
+#endif
